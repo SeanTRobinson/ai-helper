@@ -1,0 +1,23 @@
+---
+applyTo: "**"
+---
+# Testing
+
+## Test Pyramid
+- Unit: Automation scripts, persona logic
+- Integration: Persona and prompt orchestration
+- E2E: Full workflow validation
+
+## Coverage Thresholds
+- 100% for automation and personas
+
+## Mocking Policy
+- Use mocks for external calls
+
+## Non-Functional Test Matrix
+- x-OS compatibility
+- Automation reliability
+
+## High-Priority Fixes
+- Add regression test requirements
+- Add auto-fix suggestions for failed validations

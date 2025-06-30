@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# DevOps Utility Prompts
+
+## Intro
+Use these prompts to automate, validate, and extend setup, updates, and CI/CD for the AI helper system.
+
+## Prompt 1: Generate Setup Script
+- Template: "Write a bash or Python script to set up [ENVIRONMENT]. Ensure x-OS compatibility."
+- Inputs: ENVIRONMENT
+- Expected Output: Script file, passes linter
+- Example Input/Output: Input: VS Code; Output: Bash setup script
+- Post-Prompt Actions: Add script to repo, update docs
+
+## Prompt 2: Validate CI/CD Pipeline
+- Template: "Test CI/CD pipeline for [PLATFORM]. Report failures."
+- Inputs: PLATFORM
+- Expected Output: Test report
+- Example Input/Output: Input: GitHub Actions; Output: All jobs pass
+- Post-Prompt Actions: Update validation log
+
+## Prompt 3: Add Health Check
+- Template: "Create a health check script for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Health check script
+- Example Input/Output: Input: automation scripts; Output: Python health check
+- Post-Prompt Actions: Add to repo, update docs
+
+## Prompt 4: Review Automation Uptime
+- Template: "Audit automation uptime for [PERIOD]."
+- Inputs: PERIOD
+- Expected Output: Uptime report
+- Example Input/Output: Input: weekly; Output: 100% uptime
+- Post-Prompt Actions: Update audit log
+
+## Prompt 5: Refactor Setup for Extensibility
+- Template: "Refactor [SCRIPT] to be modular and extensible."
+- Inputs: SCRIPT
+- Expected Output: Refactored script
+- Example Input/Output: Input: setup.sh; Output: modular setup.py
+- Post-Prompt Actions: Replace old script, update docs
+
+## Prompt 6: Generate CI/CD Documentation
+- Template: "Draft CI/CD documentation for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown doc
+- Example Input/Output: Input: automation validation; Output: doc in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 7: Audit Platform Compatibility
+- Template: "Audit all automation for platform compatibility."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All platforms supported
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current DevOps utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I add a new setup script?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I validate CI/CD?
+A: Use Prompt 2 and review the test report.
+
+Q: How do I add a health check?
+A: Use Prompt 3 and place the file in utility-prompts/.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

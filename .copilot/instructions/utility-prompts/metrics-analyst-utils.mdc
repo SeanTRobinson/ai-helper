@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Metrics Analyst Utility Prompts
+
+## Intro
+Use these prompts to track, review, and extend all automation, persona, and user metrics for the AI helper system.
+
+## Prompt 1: Generate Metric Report
+- Template: "Generate a metric report for [PERIOD]."
+- Inputs: PERIOD
+- Expected Output: Metric report
+- Example Input/Output: Input: weekly; Output: report in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 2: Track User Satisfaction
+- Template: "Track user satisfaction for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Satisfaction report
+- Example Input/Output: Input: persona creation; Output: report in meta/
+- Post-Prompt Actions: Update metrics log
+
+## Prompt 3: Add New Metric
+- Template: "Add a new metric for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Metric entry
+- Example Input/Output: Input: automation scripts; Output: metric in docs
+- Post-Prompt Actions: Update docs
+
+## Prompt 4: Review Metrics for Drift
+- Template: "Review all metrics for drift and staleness."
+- Inputs: None
+- Expected Output: Review report
+- Example Input/Output: Output: All metrics current
+- Post-Prompt Actions: Update audit log
+
+## Prompt 5: Refactor Metric Collection
+- Template: "Refactor [SCRIPT] for automated metric collection."
+- Inputs: SCRIPT
+- Expected Output: Refactored script
+- Example Input/Output: Input: metrics.py; Output: automated script
+- Post-Prompt Actions: Replace old script, update docs
+
+## Prompt 6: Generate Metrics Documentation
+- Template: "Draft metrics documentation for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown doc
+- Example Input/Output: Input: automation validation; Output: doc in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 7: Audit Metrics Accessibility
+- Template: "Audit all metrics for accessibility."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All metrics accessible
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current metrics analyst utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I generate a metric report?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I track user satisfaction?
+A: Use Prompt 2 and update the metrics log.
+
+Q: How do I add a new metric?
+A: Use Prompt 3 and update the relevant doc.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

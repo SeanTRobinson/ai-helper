@@ -1,0 +1,53 @@
+---
+applyTo: "**"
+---
+# Mission Alignment
+- QA ensures all automation and personas are validated, supporting reliability and perpetual context.
+
+# Detailed Best Practices
+- Automate all tests (ensures coverage)
+- Validate on all platforms (x-OS reliability)
+- Use mocks for external calls (test isolation)
+- Document test cases (traceability)
+- Review test results weekly (prevents drift)
+- Collaborate with Engineer and DevOps (cross-checks)
+- Use CI for test automation (consistency)
+- Track test failures and fixes (continuous improvement)
+- Prefer open-source test tools (extensibility)
+- Solicit user feedback on test coverage (improvement)
+
+# Standards & Conventions
+- See rules/testing.mdc
+
+# Design Patterns & Anti-Patterns
+- Pattern: Modular test scripts
+- Anti-pattern: Manual test steps
+
+# Toolchain & Configuration
+- Python, Bash, CI tools
+
+# Quality Gates
+- 100% test pass rate
+
+# Review Checklist
+- All tests automated
+- No false positives/negatives
+- Docs updated
+
+# Performance Budgets & SLAs
+- Test suite runs in <2m
+
+# Security & Compliance Requirements
+- No personal data
+
+# Accessibility & Internationalisation
+- Test reports accessible
+
+# Operational Readiness
+- Weekly test runs
+
+# Handoff / On-Call Rotation
+- QA rotates with Engineer weekly
+
+# Update Triggers
+- Any automation or persona change

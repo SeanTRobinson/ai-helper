@@ -1,0 +1,15 @@
+---
+applyTo: "**"
+---
+# Sync and Update
+
+## Dependency Graph
+| Source         | Targets                | Action                        |
+|----------------|-----------------------|-------------------------------|
+| spec/          | personas/, strategies/ | Regenerate on spec change     |
+| backlog/       | tests/, personas/      | Sync on backlog update        |
+| rules/         | all/                   | Enforce on commit/merge       |
+
+## Rule
+- Auto-rewrite personas, prompts, and tests if spec/backlog changes
+- Sync backlog/tests and log changes on post-merge

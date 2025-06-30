@@ -1,0 +1,20 @@
+---
+applyTo: "**"
+---
+# Rules and Standards
+
+## Code Style Guide
+- Favour Python and Bash for scripts
+- Use clear, descriptive names
+- Consistent indentation and formatting
+
+## Naming Rules
+- Use kebab-case for files, snake_case for variables
+- Persona and prompt files must match their names
+
+## Lint Config References
+- Use flake8 for Python
+- Use shellcheck for Bash
+
+## Doc Drift Checks
+- Add doc drift checks as a nice-to-have

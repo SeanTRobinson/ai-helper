@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Architect Utility Prompts
+
+## Intro
+Use these prompts to design, validate, and extend the architecture of the AI helper system.
+
+## Prompt 1: Generate Architecture Diagram
+- Template: "Create a markdown diagram for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Markdown diagram
+- Example Input/Output: Input: persona system; Output: diagram in docs
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 2: Document Architecture Decision
+- Template: "Document the decision for [CHANGE]."
+- Inputs: CHANGE
+- Expected Output: Decision record
+- Example Input/Output: Input: switch to modular prompts; Output: decision in docs
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 3: Review for Technical Debt
+- Template: "Audit architecture for technical debt."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: No technical debt found
+- Post-Prompt Actions: Update audit log
+
+## Prompt 4: Validate Extensibility
+- Template: "Test extensibility of [MODULE]."
+- Inputs: MODULE
+- Expected Output: Test report
+- Example Input/Output: Input: persona loader; Output: extensible
+- Post-Prompt Actions: Update validation log
+
+## Prompt 5: Refactor for Maintainability
+- Template: "Refactor [COMPONENT] for maintainability."
+- Inputs: COMPONENT
+- Expected Output: Refactored component
+- Example Input/Output: Input: prompt manager; Output: maintainable code
+- Post-Prompt Actions: Replace old component, update docs
+
+## Prompt 6: Generate Architecture Documentation
+- Template: "Draft architecture documentation for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown doc
+- Example Input/Output: Input: persona system; Output: doc in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 7: Audit Architecture Drift
+- Template: "Audit architecture for drift and staleness."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: Architecture current
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current architect utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I create an architecture diagram?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I document an architecture decision?
+A: Use Prompt 2 and place the file in meta/.
+
+Q: How do I audit for technical debt?
+A: Use Prompt 3 and review the audit report.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

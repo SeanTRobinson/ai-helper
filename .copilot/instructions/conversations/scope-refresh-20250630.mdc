@@ -1,0 +1,52 @@
+---
+applyTo: "**"
+---
+# Scope Refresh Conversation 20250630
+
+## Participants
+- Architect
+- DevOps
+- Engineer
+- Automation QA
+- Consistency Auditor
+- Metrics Analyst
+- Security
+- Tech Writer
+- Validator
+- Community Manager
+
+## Discussion
+
+### a. Project Scope & Boundaries
+- Confirmed: No personal data, no analytics, no platform lock-in, x-OS support, open-source (MIT), perpetual context, automation-first, extensibility, and community-driven.
+- Boundaries: No persistent DB, no tracking, no closed-source dependencies, no user analytics.
+
+### b. Newly Identified Requirements/Tasks
+- Plugin system for extensibility
+- Onboarding guide for new users/contributors
+- Metrics dashboard/reporting
+- Community engagement and support
+- Regression and drift checks
+- Validation cycle and security review cadence
+- Doc drift checks
+
+### c. Prioritization (MoSCoW)
+#### Must Have
+- Plugin system and extension points
+- x-OS automation test coverage
+- Validation cycle and security review cadence
+- Regression test and auto-fix requirements
+- Community Manager persona and engagement
+#### Should Have
+- Metrics dashboard/reporting
+- Onboarding guide
+- Doc drift checks
+#### Could Have
+- Contributor growth tracking
+- Community check-ins
+#### Won't Have (for now)
+- Persistent DB
+- Analytics/tracking
+
+# Action Items
+- Update backlog and assign responsible personas/strategy links.

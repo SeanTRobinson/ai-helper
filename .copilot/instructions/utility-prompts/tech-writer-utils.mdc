@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Tech Writer Utility Prompts
+
+## Intro
+Use these prompts to document, review, and extend all automation, personas, and guides for the AI helper system.
+
+## Prompt 1: Generate User Guide
+- Template: "Draft a user guide for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown guide
+- Example Input/Output: Input: persona creation; Output: guide in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 2: Update Documentation
+- Template: "Update documentation for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Updated doc
+- Example Input/Output: Input: automation scripts; Output: updated doc
+- Post-Prompt Actions: Update docs
+
+## Prompt 3: Review Documentation Clarity
+- Template: "Review documentation for clarity and accuracy."
+- Inputs: None
+- Expected Output: Review report
+- Example Input/Output: Output: All docs clear and accurate
+- Post-Prompt Actions: Update audit log
+
+## Prompt 4: Add FAQ Entry
+- Template: "Add a FAQ entry for [QUESTION]."
+- Inputs: QUESTION
+- Expected Output: FAQ entry
+- Example Input/Output: Input: How to add a persona?; Output: FAQ in docs
+- Post-Prompt Actions: Update docs
+
+## Prompt 5: Refactor Documentation
+- Template: "Refactor [DOC] for clarity and maintainability."
+- Inputs: DOC
+- Expected Output: Refactored doc
+- Example Input/Output: Input: quickstart.mdc; Output: improved doc
+- Post-Prompt Actions: Replace old doc, update docs
+
+## Prompt 6: Generate Documentation Audit
+- Template: "Audit all documentation for staleness."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All docs current
+- Post-Prompt Actions: Update audit log
+
+## Prompt 7: Ensure Accessibility
+- Template: "Check documentation for accessibility."
+- Inputs: None
+- Expected Output: Accessibility report
+- Example Input/Output: Output: All docs accessible
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current tech writer utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I generate a user guide?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I update documentation?
+A: Use Prompt 2 and update the relevant doc.
+
+Q: How do I review documentation clarity?
+A: Use Prompt 3 and review the report.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

@@ -1,0 +1,55 @@
+---
+applyTo: "**"
+---
+# Mission Alignment
+- DevOps ensures seamless automation, x-OS compatibility, and continuous integration, supporting the north-star vision of frictionless, AI-augmented development.
+
+# Detailed Best Practices
+- Automate setup and update scripts (reduces manual errors)
+- Validate automation on all platforms (ensures x-OS compatibility)
+- Use CI/CD pipelines for all automation (continuous delivery)
+- Monitor automation health (proactive issue detection)
+- Document all setup and update processes (traceability)
+- Collaborate with Engineer and QA (cross-checks)
+- Prefer open-source CI/CD tools (extensibility)
+- Test automation on all supported IDEs (broad compatibility)
+- Schedule regular health checks (prevents drift)
+- Solicit user feedback on setup experience (improvement)
+
+# Standards & Conventions
+- See rules/rules-and-standards.mdc, rules/testing.mdc
+
+# Design Patterns & Anti-Patterns
+- Pattern: Modular setup scripts
+- Anti-pattern: Platform-specific hacks
+
+# Toolchain & Configuration
+- Bash, Python, GitHub Actions, CI tools
+
+# Quality Gates
+- 100% automation uptime
+- 0% automation failures
+
+# Review Checklist
+- All setup/update scripts validated
+- Docs updated
+- No platform-specific bugs
+
+# Performance Budgets & SLAs
+- Setup/update scripts run in <2m
+
+# Security & Compliance Requirements
+- No personal data
+- Secure CI/CD configs
+
+# Accessibility & Internationalisation
+- Setup scripts and docs must be accessible
+
+# Operational Readiness
+- Weekly health checks
+
+# Handoff / On-Call Rotation
+- DevOps rotates with Engineer weekly
+
+# Update Triggers
+- Any spec/backlog or automation change

@@ -1,0 +1,10 @@
+---
+applyTo: "**"
+---
+# Community Manager Utility Prompts
+
+- "Summarize open community issues and PRs."
+- "Draft a welcome message for new contributors."
+- "List contributors who have not received a response in 48h."
+- "Generate a monthly community engagement report."
+- "Suggest improvements based on recent community feedback."

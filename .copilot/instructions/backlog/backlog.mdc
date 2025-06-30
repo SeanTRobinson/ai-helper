@@ -1,0 +1,34 @@
+---
+applyTo: "**"
+---
+# Backlog
+
+## EPICs
+- EPIC-1: Initial automation and persona setup
+- EPIC-2: Submodule and MCP server support
+- EPIC-3: User extensibility and guides
+- EPIC-4: Plugin system and extension points
+- EPIC-5: Community engagement and onboarding
+
+## Stories
+- As a user, I want to install the AI helper as a submodule or MCP server (Engineer, DevOps; engineer-strategy, devops-strategy)
+- As a user, I want to generate a custom persona team (Engineer, Automation QA; engineer-strategy, automation-qa-strategy)
+- As a user, I want to add new prompts and personas (Engineer, Tech Writer; engineer-strategy, tech-writer-strategy)
+- As a user, I want to extend the system via plugins (Architect, Engineer; architect-strategy)
+- As a user, I want onboarding guides and community support (Tech Writer, Community Manager; tech-writer-strategy, community-manager-strategy)
+- As a user, I want to see metrics and reports (Metrics Analyst; metrics-analyst-strategy)
+- As a user, I want automation to be validated, regression-tested, and auto-fixed (Automation QA, Validator; automation-qa-strategy, validator-strategy)
+- As a user, I want documentation and automation to remain consistent and up-to-date (Consistency Auditor; consistency-auditor-strategy)
+- As a user, I want security reviews and validation cycles (Security, Automation QA; security-strategy, automation-qa-strategy)
+
+## Acceptance Criteria
+- All automation and personas are generated, validated, and regression-tested
+- User can select and switch modes
+- Guides and onboarding are available for extensibility and community
+- Plugin system is available and documented
+- Metrics dashboard/reporting is available
+- Community engagement is active and tracked
+- Security and validation cycles are scheduled and reported
+
+## Link to Tests
+- See rules/testing.mdc

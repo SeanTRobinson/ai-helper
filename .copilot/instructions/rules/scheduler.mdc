@@ -1,0 +1,14 @@
+---
+applyTo: "**"
+---
+# Scheduler
+
+## Cron Examples
+- Nightly: 0 0 * * *
+- Weekly: 0 0 * * 0
+- Monthly: 0 0 1 * *
+
+## Tasks
+- Nightly: Run validator
+- Weekly: Health check
+- Monthly: Philosophy audit

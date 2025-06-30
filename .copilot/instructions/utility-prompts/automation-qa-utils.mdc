@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Automation QA Utility Prompts
+
+## Intro
+Use these prompts to automate, validate, and extend test coverage for all automation and personas.
+
+## Prompt 1: Generate Test Script
+- Template: "Write a Python or Bash test script for [AUTOMATION]."
+- Inputs: AUTOMATION
+- Expected Output: Test script file
+- Example Input/Output: Input: changelog update; Output: Python test script
+- Post-Prompt Actions: Add script to repo, update docs
+
+## Prompt 2: Validate Test Coverage
+- Template: "Check test coverage for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Coverage report
+- Example Input/Output: Input: personas; Output: 100% coverage
+- Post-Prompt Actions: Update validation log
+
+## Prompt 3: Add New Test Case
+- Template: "Create a new test case for [SCENARIO]."
+- Inputs: SCENARIO
+- Expected Output: Test case entry
+- Example Input/Output: Input: persona drift; Output: test in QA utils
+- Post-Prompt Actions: Update utility-prompts/
+
+## Prompt 4: Review Test Results
+- Template: "Review all test results for [PERIOD]."
+- Inputs: PERIOD
+- Expected Output: Test report
+- Example Input/Output: Input: weekly; Output: all tests pass
+- Post-Prompt Actions: Update audit log
+
+## Prompt 5: Refactor Test Suite
+- Template: "Refactor [SUITE] for modularity and extensibility."
+- Inputs: SUITE
+- Expected Output: Refactored suite
+- Example Input/Output: Input: automation tests; Output: modular suite
+- Post-Prompt Actions: Replace old suite, update docs
+
+## Prompt 6: Generate Test Documentation
+- Template: "Draft test documentation for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown doc
+- Example Input/Output: Input: automation validation; Output: doc in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 7: Audit Test Drift
+- Template: "Audit all tests for drift and staleness."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All tests current
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current QA utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I add a new test script?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I validate test coverage?
+A: Use Prompt 2 and review the coverage report.
+
+Q: How do I add a new test case?
+A: Use Prompt 3 and place the file in utility-prompts/.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

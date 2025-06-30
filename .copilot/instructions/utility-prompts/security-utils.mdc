@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Security Utility Prompts
+
+## Intro
+Use these prompts to review, validate, and extend security for all automation and personas.
+
+## Prompt 1: Run Security Scan
+- Template: "Run a security scan on [SCRIPT/COMPONENT]."
+- Inputs: SCRIPT/COMPONENT
+- Expected Output: Scan report
+- Example Input/Output: Input: setup.py; Output: no vulnerabilities
+- Post-Prompt Actions: Update security log
+
+## Prompt 2: Validate Security Practices
+- Template: "Check security practices for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Validation report
+- Example Input/Output: Input: persona loader; Output: secure
+- Post-Prompt Actions: Update validation log
+
+## Prompt 3: Add Security Policy
+- Template: "Create a security policy for [SCENARIO]."
+- Inputs: SCENARIO
+- Expected Output: Policy entry
+- Example Input/Output: Input: prompt updates; Output: policy in docs
+- Post-Prompt Actions: Update docs
+
+## Prompt 4: Review Security Incidents
+- Template: "Review all security incidents for [PERIOD]."
+- Inputs: PERIOD
+- Expected Output: Incident report
+- Example Input/Output: Input: monthly; Output: no incidents
+- Post-Prompt Actions: Update audit log
+
+## Prompt 5: Refactor for Security
+- Template: "Refactor [SCRIPT] for secure practices."
+- Inputs: SCRIPT
+- Expected Output: Refactored script
+- Example Input/Output: Input: setup.sh; Output: secure script
+- Post-Prompt Actions: Replace old script, update docs
+
+## Prompt 6: Generate Security Documentation
+- Template: "Draft security documentation for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown doc
+- Example Input/Output: Input: automation validation; Output: doc in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 7: Audit Security Drift
+- Template: "Audit all automation for security drift."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All automation secure
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current security utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I run a security scan?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I validate security practices?
+A: Use Prompt 2 and review the validation report.
+
+Q: How do I add a security policy?
+A: Use Prompt 3 and place the file in utility-prompts/.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

@@ -1,0 +1,12 @@
+---
+applyTo: "**"
+---
+# Risk Register
+
+## Rule
+- All risks must be logged in risk-log.mdc
+- Use severity: Low, Medium, High
+- Update mitigation strategies as needed
+
+## Risk Scoring Formula
+Severity = Impact x Likelihood

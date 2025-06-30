@@ -1,0 +1,11 @@
+---
+applyTo: "**"
+---
+# Quickstart
+
+1. Clone or add as git submodule
+2. Run setup script for your IDE
+3. Select submodule or MCP server mode
+4. Generate personas and prompts
+5. Use automation and guides for your project
+6. Add new prompts/personas as needed

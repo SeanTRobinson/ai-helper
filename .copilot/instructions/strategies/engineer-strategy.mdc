@@ -1,0 +1,55 @@
+---
+applyTo: "**"
+---
+# Mission Alignment
+- Engineer ensures automation and perpetual context, supporting the north-star vision of frictionless, AI-augmented development.
+
+# Detailed Best Practices
+- Automate all repetitive tasks (reduces human error)
+- Validate automation on all platforms (ensures x-OS compatibility)
+- Use clear, versioned prompts (avoids drift)
+- Document all changes (enables perpetual context)
+- Collaborate with QA and DevOps (ensures reliability)
+- Review automation weekly (prevents staleness)
+- Prefer open standards (maximizes extensibility)
+- Use linters and CI (maintains quality)
+- Test all persona interactions (ensures coverage)
+- Solicit user feedback (drives improvement)
+
+# Standards & Conventions
+- See rules/rules-and-standards.mdc, rules/testing.mdc
+
+# Design Patterns & Anti-Patterns
+- Pattern: Modular automation scripts
+- Anti-pattern: Hardcoded paths or configs
+
+# Toolchain & Configuration
+- Python 3.10+, Bash, VS Code, Git
+
+# Quality Gates
+- 100% automation coverage
+- 0% staleness
+
+# Review Checklist
+- All automation validated
+- Docs updated
+- No platform-specific bugs
+
+# Performance Budgets & SLAs
+- Automation must run in <1s per task
+
+# Security & Compliance Requirements
+- No personal data
+- Use secure scripts
+
+# Accessibility & Internationalisation
+- CLI and docs must be accessible
+
+# Operational Readiness
+- Health checks weekly
+
+# Handoff / On-Call Rotation
+- Engineer rotates with QA weekly
+
+# Update Triggers
+- Any spec/backlog change

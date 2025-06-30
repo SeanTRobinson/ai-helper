@@ -1,0 +1,10 @@
+---
+applyTo: "**"
+---
+# Risk Log
+
+| Date       | Risk                        | Severity | Mitigation                |
+|------------|-----------------------------|----------|---------------------------|
+| 2025-06-30 | IDE compatibility drift     | Medium   | Test on all major IDEs    |
+| 2025-06-30 | Automation failure          | High     | Validator, pre-commit     |
+| 2025-06-30 | Outdated prompts/personas   | Medium   | Scheduled reviews         |

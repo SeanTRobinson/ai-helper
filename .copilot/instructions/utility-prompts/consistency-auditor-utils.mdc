@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Consistency Auditor Utility Prompts
+
+## Intro
+Use these prompts to audit, review, and enforce consistency across all automation, personas, and documentation for the AI helper system.
+
+## Prompt 1: Audit Consistency
+- Template: "Audit all automation and docs for consistency."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All docs and automation consistent
+- Post-Prompt Actions: Update audit log
+
+## Prompt 2: Validate Style and Standards
+- Template: "Validate style and standards for [COMPONENT]."
+- Inputs: COMPONENT
+- Expected Output: Validation report
+- Example Input/Output: Input: personas; Output: all standards met
+- Post-Prompt Actions: Update validation log
+
+## Prompt 3: Add Consistency Check
+- Template: "Create a consistency check for [SCENARIO]."
+- Inputs: SCENARIO
+- Expected Output: Check entry
+- Example Input/Output: Input: prompt updates; Output: check in docs
+- Post-Prompt Actions: Update docs
+
+## Prompt 4: Review Consistency Reports
+- Template: "Review all consistency reports for [PERIOD]."
+- Inputs: PERIOD
+- Expected Output: Review report
+- Example Input/Output: Input: weekly; Output: all consistent
+- Post-Prompt Actions: Update audit log
+
+## Prompt 5: Refactor Consistency Checks
+- Template: "Refactor [SCRIPT] for automated consistency checks."
+- Inputs: SCRIPT
+- Expected Output: Refactored script
+- Example Input/Output: Input: consistency.py; Output: automated script
+- Post-Prompt Actions: Replace old script, update docs
+
+## Prompt 6: Generate Consistency Documentation
+- Template: "Draft consistency documentation for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown doc
+- Example Input/Output: Input: automation validation; Output: doc in meta/
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 7: Audit Consistency Accessibility
+- Template: "Audit all consistency docs for accessibility."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All docs accessible
+- Post-Prompt Actions: Update audit log
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current consistency auditor utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I audit consistency?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I validate style and standards?
+A: Use Prompt 2 and review the validation report.
+
+Q: How do I add a consistency check?
+A: Use Prompt 3 and update the relevant doc.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

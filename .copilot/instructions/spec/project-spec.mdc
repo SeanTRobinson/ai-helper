@@ -1,0 +1,35 @@
+---
+applyTo: "**"
+---
+# Project Spec
+
+## Overview
+AI helper library to accelerate, augment, and protect developers using AI. Can be included as a git submodule or run as an MCP server. Provides perpetual context, automation, and a virtual expert team.
+
+## Requirements
+- Key guardrails and automation for AI usage
+- Master prompt directory, project-specific
+- Custom persona team per project
+- Automation rules for smooth operation
+- Support for git submodule and MCP server modes
+- Extensible: users can add prompts, personas, etc.
+- Add plugin system requirements and extension points (see foundation-review.mdc)
+- Add onboarding guide as a deliverable
+- Add metrics reporting/dashboard requirements
+
+## Milestones
+- Initial setup and automation
+- Persona and prompt generation
+- Submodule and MCP server support
+- User extensibility and guides
+
+## Constraints
+- x-OS compliant (Mac/Linux/Windows)
+- Favour bash and Python for scripts
+- No personal data handling
+- Open-source (MIT)
+
+## Out-of-Scope
+- No personal data processing
+- No tracking or analytics
+- No platform lock-in

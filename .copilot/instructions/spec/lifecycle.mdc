@@ -1,0 +1,29 @@
+---
+applyTo: "**"
+---
+# Lifecycle
+
+## Phases
+- Initial Setup: Submodule or MCP server installation, persona and prompt generation
+- Active Use: Ongoing automation, prompt execution, persona collaboration
+- Maintenance: Updates, extensibility, industry adaptation
+
+## Entry & Exit Criteria
+- Setup: User runs setup script, selects mode
+- Active: Automation and personas running, user requests handled
+- Maintenance: New features, industry changes, or user requests
+
+## Responsibilities
+- Automation: AI orchestrator
+- Maintenance: AI orchestrator
+- User: High-level intent and requirements
+
+## Gates
+- Validator passes before commit/merge
+- Changelog and risk log updated
+- Persona and prompt sync after spec/backlog changes
+
+## High-Priority Fixes
+- Add x-OS automation test coverage requirement
+- Add validation cycle section
+- Add security review cadence section

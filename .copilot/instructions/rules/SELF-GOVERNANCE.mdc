@@ -1,0 +1,8 @@
+---
+applyTo: "**"
+---
+# Self-Governance
+
+## Meta-Rule
+- No new behaviour without a corresponding rule file
+- All automation and personas must be governed by explicit rules

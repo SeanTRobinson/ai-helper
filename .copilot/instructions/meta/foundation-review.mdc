@@ -1,0 +1,60 @@
+---
+applyTo: "**"
+---
+# Findings by Persona
+
+## Architect
+- No major gaps in architecture docs, but spec/project-spec.mdc lacks explicit plugin system requirements. Suggest adding a section on plugin architecture and extension points.
+- Suggest improvement: Add plugin system requirements to project-spec.mdc and interfaces.mdc.
+
+## DevOps
+- Automation scripts for x-OS compatibility are not referenced in spec/lifecycle.mdc. Suggest explicit mention of cross-platform test coverage.
+- Suggest improvement: Add x-OS automation test coverage to lifecycle.mdc.
+
+## Engineer
+- No explicit mention of regression testing in rules/testing.mdc. Suggest adding regression test requirements.
+- Suggest improvement: Update rules/testing.mdc to require regression tests for all automation.
+
+## Automation QA
+- No clear process for continuous validation in lifecycle.mdc. Suggest adding a validation cycle section.
+- Suggest improvement: Add validation cycle to lifecycle.mdc.
+
+## Consistency Auditor
+- No reference to documentation drift checks in rules/rules-and-standards.mdc. Suggest adding doc drift checks.
+- Suggest improvement: Update rules-and-standards.mdc to require doc drift checks.
+
+## Metrics Analyst
+- No metrics dashboard or reporting cadence in spec/project-spec.mdc. Suggest adding metrics reporting requirements.
+- Suggest improvement: Add metrics reporting to project-spec.mdc.
+
+## Security
+- No explicit security review cadence in lifecycle.mdc. Suggest adding security review schedule.
+- Suggest improvement: Add security review cadence to lifecycle.mdc.
+
+## Tech Writer
+- No onboarding guide referenced in spec/project-spec.mdc. Suggest adding onboarding guide as a deliverable.
+- Suggest improvement: Add onboarding guide to project-spec.mdc deliverables.
+
+## Validator
+- No mention of auto-fix suggestions in rules/testing.mdc. Suggest adding auto-fix as a requirement.
+- Suggest improvement: Update rules/testing.mdc to require auto-fix suggestions for failed validations.
+
+# Common Themes
+- Need for more explicit requirements and deliverables in spec and rules files.
+- Missing references to validation, regression, and drift checks.
+- Lack of onboarding and plugin extensibility documentation.
+
+# High-Priority Fixes (blocking)
+- Add plugin system requirements to project-spec.mdc and interfaces.mdc.
+- Add x-OS automation test coverage to lifecycle.mdc.
+- Add regression test and auto-fix requirements to rules/testing.mdc.
+- Add validation cycle and security review cadence to lifecycle.mdc.
+
+# Nice-to-Haves
+- Metrics dashboard/reporting cadence in project-spec.mdc.
+- Onboarding guide as a deliverable in project-spec.mdc.
+- Doc drift checks in rules-and-standards.mdc.
+
+## Community Manager
+- No explicit community engagement or feedback process in lifecycle.mdc. Suggest adding community feedback loop and engagement metrics.
+- Suggest improvement: Add community feedback loop and engagement metrics to lifecycle.mdc.

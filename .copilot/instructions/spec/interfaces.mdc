@@ -1,0 +1,19 @@
+---
+applyTo: "**"
+---
+# Interfaces
+
+## API Endpoints
+- /setup [POST]: Initialize as submodule or MCP server
+- /persona [GET/POST]: List or add personas
+- /prompt [GET/POST]: List or add prompts
+- /run [POST]: Execute automation or persona action
+
+## DB Schema (if any)
+- No persistent DB required; config and state stored in project files
+
+## Component Contracts
+- Persona: Implements required interface for automation, communication, and self-improvement
+- Prompt: Structured, versioned, and extensible
+
+- Add plugin system and extension point requirements

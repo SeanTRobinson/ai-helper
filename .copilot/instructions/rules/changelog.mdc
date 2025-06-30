@@ -1,0 +1,13 @@
+---
+applyTo: "**"
+---
+# Changelog Rule
+
+## Rule
+- All changes must be logged in changelog-log.mdc
+- Use date and summary format
+
+## Sample Entry
+| Date       | Change Summary                        |
+|------------|---------------------------------------|
+| 2025-06-30 | Initial doc-driven bootstrap complete  |

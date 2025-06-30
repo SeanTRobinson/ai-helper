@@ -1,0 +1,22 @@
+---
+applyTo: "**"
+---
+# Changelog Log
+
+| Date       | Change Summary                        |
+|------------|---------------------------------------|
+| 2025-06-30 | Initial doc-driven bootstrap complete |
+| 2025-07-15 | Updates to project-spec.mdc          |
+|            | - Add plugin system, onboarding guide, and metrics reporting requirements (see foundation-review.mdc) |
+|            | - Add Community Manager persona, strategy, and utility prompts |
+| 2025-07-20 | Updates to lifecycle.mdc             |
+|            | - Add x-OS automation test coverage, validation cycle, and security review cadence (see foundation-review.mdc) |
+| 2025-07-21 | Updates to interfaces.mdc             |
+|            | - Add plugin system and extension point requirements (see foundation-review.mdc) |
+| 2025-07-22 | Updates to rules/testing.mdc          |
+|            | - Add regression test and auto-fix requirements (see foundation-review.mdc) |
+| 2025-07-23 | Updates to rules-and-standards.mdc   |
+|            | - Add doc drift checks as a nice-to-have (see foundation-review.mdc) |
+| 2025-07-24 | Backlog, scope, and foundation review refreshed |
+|            | - Refresh dates and details for accuracy |
+|            | - Backlog, scope, and foundation review refreshed (see foundation-review.mdc, backlog.mdc, scope-refresh-20250630.mdc) |

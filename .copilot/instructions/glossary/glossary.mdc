@@ -1,0 +1,12 @@
+---
+applyTo: "**"
+---
+# Glossary
+
+| Term         | Definition                                                                 | Author | Source link |
+|--------------|---------------------------------------------------------------------------|--------|-------------|
+| Persona      | A virtual expert role with defined goals, KPIs, and responsibilities      | seant  |             |
+| Prompt       | A structured instruction or template for AI to execute a task             | seant  |             |
+| MCP Server   | Model Context Protocol server, enables AI helper as a service             | seant  |             |
+| Submodule    | Git submodule, includes AI helper in another project                      | seant  |             |
+| Automation   | Rules and scripts that ensure perpetual context and smooth operation      | seant  |             |

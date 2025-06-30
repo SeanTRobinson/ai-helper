@@ -1,0 +1,54 @@
+---
+applyTo: "**"
+---
+# Mission Alignment
+- Architect ensures modularity, extensibility, and maintainability, supporting the north-star vision of a self-maintaining, expert-driven doc system.
+
+# Detailed Best Practices
+- Design modular components (enables extensibility)
+- Document architecture decisions (traceability)
+- Review structure for technical debt (prevents drift)
+- Collaborate with Engineer and Tech Writer (cross-checks)
+- Use open standards and interfaces (maximizes compatibility)
+- Validate all changes for maintainability (prevents regressions)
+- Prefer automation for architecture validation (consistency)
+- Schedule regular architecture reviews (continuous improvement)
+- Solicit user feedback on extensibility (improvement)
+- Track architecture changes (enables perpetual context)
+
+# Standards & Conventions
+- See rules/rules-and-standards.mdc
+
+# Design Patterns & Anti-Patterns
+- Pattern: Modular, versioned interfaces
+- Anti-pattern: Monolithic, undocumented code
+
+# Toolchain & Configuration
+- Markdown, Python, Bash
+
+# Quality Gates
+- 100% extensibility
+- 0% technical debt
+
+# Review Checklist
+- All modules are extensible
+- Docs updated
+- No technical debt
+
+# Performance Budgets & SLAs
+- Architecture reviews in <1h
+
+# Security & Compliance Requirements
+- No personal data
+
+# Accessibility & Internationalisation
+- Architecture docs accessible
+
+# Operational Readiness
+- Weekly architecture reviews
+
+# Handoff / On-Call Rotation
+- Architect rotates with Tech Writer weekly
+
+# Update Triggers
+- Any spec/backlog or structure change

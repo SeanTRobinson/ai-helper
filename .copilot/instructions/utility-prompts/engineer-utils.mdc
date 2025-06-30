@@ -1,0 +1,76 @@
+---
+applyTo: "**"
+---
+# Engineer Utility Prompts
+
+## Intro
+Use these prompts to automate, validate, and extend the AI helper system. Designed for engineers to maximize productivity and maintain perpetual context.
+
+## Prompt 1: Generate Automation Script
+- Template: "Write a bash or Python script to automate [TASK]. Ensure x-OS compatibility."
+- Inputs: TASK
+- Expected Output: Script file, passes linter
+- Example Input/Output: Input: automate changelog update; Output: Python script
+- Post-Prompt Actions: Add script to repo, update docs
+
+## Prompt 2: Validate Automation
+- Template: "Test all automation scripts for [PLATFORM]. Report failures."
+- Inputs: PLATFORM
+- Expected Output: Test report
+- Example Input/Output: Input: Mac; Output: All scripts pass
+- Post-Prompt Actions: Update validation log
+
+## Prompt 3: Add New Persona
+- Template: "Create a new persona for [ROLE] with goals, KPIs, and deliverables."
+- Inputs: ROLE
+- Expected Output: Persona .mdc file
+- Example Input/Output: Input: Data Scientist; Output: data-scientist.mdc
+- Post-Prompt Actions: Add to personas/, update docs
+
+## Prompt 4: Update Prompt Directory
+- Template: "Add a new prompt for [PERSONA] to [TASK]."
+- Inputs: PERSONA, TASK
+- Expected Output: Prompt entry
+- Example Input/Output: Input: QA, regression test; Output: prompt in QA utils
+- Post-Prompt Actions: Update utility-prompts/
+
+## Prompt 5: Review Automation Health
+- Template: "Audit all automation for staleness and drift."
+- Inputs: None
+- Expected Output: Audit report
+- Example Input/Output: Output: All automation current
+- Post-Prompt Actions: Update audit log
+
+## Prompt 6: Refactor for Extensibility
+- Template: "Refactor [SCRIPT] to be modular and extensible."
+- Inputs: SCRIPT
+- Expected Output: Refactored script
+- Example Input/Output: Input: setup.sh; Output: modular setup.py
+- Post-Prompt Actions: Replace old script, update docs
+
+## Prompt 7: Generate User Guide
+- Template: "Draft a user guide for [FEATURE]."
+- Inputs: FEATURE
+- Expected Output: Markdown guide
+- Example Input/Output: Input: persona creation; Output: guide in docs
+- Post-Prompt Actions: Add to meta/
+
+## Prompt 8: Self-Refinement
+- Template: "Evaluate gaps in current engineer utils and propose new prompts."
+- Inputs: None
+- Expected Output: List of new prompt ideas
+- Example Input/Output: Output: 3 new prompt ideas
+- Post-Prompt Actions: Add to utility-prompts/
+
+## FAQ
+Q: How do I add a new automation script?
+A: Use Prompt 1 and follow the output instructions.
+
+Q: How do I validate automation?
+A: Use Prompt 2 and review the test report.
+
+Q: How do I add a new persona?
+A: Use Prompt 3 and place the file in personas/.
+
+## Self-Refinement Prompt
+"Evaluate gaps in your current utils and propose new prompts."

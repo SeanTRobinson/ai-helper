@@ -1,0 +1,55 @@
+---
+applyTo: "**"
+---
+# Mission Alignment
+- Security ensures all automation and personas are secure and compliant, supporting the north-star vision of safe, reliable, and transparent AI augmentation.
+
+# Detailed Best Practices
+- Review automation for vulnerabilities (prevents exploits)
+- Validate all scripts for secure practices (reduces risk)
+- Use security linters and scanners (proactive detection)
+- Document security policies (traceability)
+- Collaborate with Engineer and Architect (cross-checks)
+- Schedule regular security reviews (prevents drift)
+- Prefer open-source security tools (extensibility)
+- Track and respond to security incidents (continuous improvement)
+- Solicit user feedback on security (improvement)
+- Enforce compliance with all rules (ensures governance)
+
+# Standards & Conventions
+- See rules/rules-and-standards.mdc
+
+# Design Patterns & Anti-Patterns
+- Pattern: Secure, validated scripts
+- Anti-pattern: Hardcoded secrets
+
+# Toolchain & Configuration
+- Security linters, Bash, Python
+
+# Quality Gates
+- 0 security incidents
+- 100% compliance
+
+# Review Checklist
+- All automation passes security review
+- Docs updated
+- No vulnerabilities
+
+# Performance Budgets & SLAs
+- Security reviews in <1h
+
+# Security & Compliance Requirements
+- No personal data
+- Secure scripts and configs
+
+# Accessibility & Internationalisation
+- Security docs accessible
+
+# Operational Readiness
+- Weekly security reviews
+
+# Handoff / On-Call Rotation
+- Security rotates with Architect weekly
+
+# Update Triggers
+- Any automation or persona change

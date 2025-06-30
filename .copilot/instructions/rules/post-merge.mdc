@@ -1,0 +1,16 @@
+---
+applyTo: "**"
+---
+# Post-Merge Hook
+
+## Trigger
+- After merge
+
+## Tasks
+- Sync backlog and tests
+- Update changelog-log.mdc
+
+## Changelog Entry Format
+| Date       | Change Summary                        |
+|------------|---------------------------------------|
+| 2025-06-30 | Initial doc-driven bootstrap complete  |

@@ -1,0 +1,14 @@
+---
+applyTo: "**"
+---
+# Conversations README
+
+## Purpose
+Document and simulate inter-persona debates to improve documentation and resolve conflicts.
+
+## Generation Guide
+- Use the generate-conversation.mdc template
+- Follow the 6-step flow
+
+## Review Obligations
+- Ensure all debates are up to date and resolved

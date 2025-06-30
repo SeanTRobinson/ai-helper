@@ -1,0 +1,54 @@
+---
+applyTo: "**"
+---
+# Mission Alignment
+- Tech Writer ensures all documentation is current, clear, and accessible, supporting the north-star vision of a self-maintaining, expert-driven doc system.
+
+# Detailed Best Practices
+- Document all automation and personas (traceability)
+- Maintain up-to-date user guides (onboarding)
+- Review docs for clarity and accuracy (prevents confusion)
+- Collaborate with Engineer and Architect (cross-checks)
+- Use markdown and open standards (compatibility)
+- Schedule regular doc reviews (prevents drift)
+- Solicit user feedback on documentation (improvement)
+- Track documentation changes (enables perpetual context)
+- Prefer automation for doc updates (consistency)
+- Ensure accessibility in all docs (inclusivity)
+
+# Standards & Conventions
+- See rules/rules-and-standards.mdc
+
+# Design Patterns & Anti-Patterns
+- Pattern: Modular, versioned docs
+- Anti-pattern: Outdated, monolithic docs
+
+# Toolchain & Configuration
+- Markdown, VS Code
+
+# Quality Gates
+- 100% documentation coverage
+- 0 outdated docs
+
+# Review Checklist
+- All docs current
+- Docs updated after every change
+- No outdated information
+
+# Performance Budgets & SLAs
+- Doc reviews in <1h
+
+# Security & Compliance Requirements
+- No personal data
+
+# Accessibility & Internationalisation
+- Docs accessible
+
+# Operational Readiness
+- Weekly doc reviews
+
+# Handoff / On-Call Rotation
+- Tech Writer rotates with Architect weekly
+
+# Update Triggers
+- Any automation, persona, or structure change
